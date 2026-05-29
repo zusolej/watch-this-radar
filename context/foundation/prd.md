@@ -17,7 +17,7 @@ timeline_budget:
 
 ## Vision & Problem Statement
 
-The primary pain is keeping up with what is happening in the world, in new technologies, and in the IT market without repeatedly doing manual internet research. The user experiences this pain when they want to stay regularly informed but must search across multiple sources on their own, which takes time and still risks missing important signals.
+The primary pain is keeping up with what is happening in the AI space — new tools, models, frameworks, and industry shifts — without repeatedly doing manual internet research. The user experiences this pain when they want to stay regularly informed on AI developments but must search across multiple sources on their own, which takes time and still risks missing important signals.
 
 The key insight is that the highest-value outcome is not just search itself, but a ready-made recurring report delivered to the user without requiring them to open the application and manually gather the information.
 
@@ -31,7 +31,7 @@ An individual professional, initially the user themself, who wants a lightweight
 
 ### Primary
 
-- A user can register, sign in, activate one recurring research for a fixed MVP topic on a fixed schedule, then view the generated report in the application.
+- A user can register, sign in, activate one recurring research for the fixed MVP topic "new AI solutions and tools" on a fixed schedule, then view the generated report in the application.
 
 ### Secondary
 
@@ -46,9 +46,9 @@ An individual professional, initially the user themself, who wants a lightweight
 
 ## User Stories
 
-### US-01: User receives a recurring technology research report
+### US-01: User receives a recurring AI research report
 
-- **Given** a signed-in user with an active recurring research configured for the fixed MVP topic "new technologies"
+- **Given** a signed-in user with an active recurring research configured for the fixed MVP topic "new AI solutions and tools"
 - **When** the scheduled time for that research arrives
 - **Then** the system runs the research for that topic and makes the generated report available in the application for that user
 
@@ -67,8 +67,8 @@ An individual professional, initially the user themself, who wants a lightweight
 
 ### Research configuration
 
-- FR-003: User can activate a recurring research for the fixed MVP topic "new technologies". Priority: must-have
-  > Socrates: Counter-argument considered: "A selectable topic list broadens scope before the product proves value." Resolution: revised; MVP starts with one fixed topic instead of a topic list.
+- FR-003: User can activate a recurring research for the fixed MVP topic "new AI solutions and tools". Priority: must-have
+  > Socrates: Counter-argument considered: "A selectable topic list broadens scope before the product proves value." Resolution: revised; MVP starts with one fixed topic instead of a topic list. Topic narrowed to AI solutions and tools by explicit decision.
 - FR-004: User can add a short personalized description of what information they want. Priority: nice-to-have
   > Socrates: Counter-argument considered: "Personalized description adds complexity before the core loop is proven." Resolution: kept as nice-to-have, not required for MVP success.
 - FR-005: User can start their recurring research on the fixed MVP schedule. Priority: must-have
@@ -104,7 +104,7 @@ Users create an account with a required email address and password, then sign in
 
 - No email delivery in the MVP; the first version proves value with in-app report access only.
 - No admin panel in the MVP; the first version serves only authenticated end users.
-- No selectable topic list in the MVP; the first version focuses on one fixed topic to keep scope small.
+- No selectable topic list in the MVP; the first version focuses on one fixed topic ("new AI solutions and tools") to keep scope small.
 - No user-configurable frequency in the MVP; the first version uses one fixed recurring schedule.
 - No in-place editing of a research configuration in the MVP; users replace it by deleting and creating a new one.
 

@@ -5,7 +5,7 @@ product_type: web-app
 target_scale:
   users: small
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-28
 timeline_budget:
   mvp_weeks: 2
   hard_deadline: null
@@ -36,6 +36,8 @@ checkpoint:
       decision: personalized description is nice-to-have; all other listed MVP capabilities remain must-have
     - topic: Socrates round
       decision: reduce MVP to one default topic, one fixed schedule, replace edit with delete-and-recreate, and deliver the report in-app instead of by email
+    - topic: MVP fixed topic
+      decision: the fixed MVP topic is "new AI solutions and tools" — new models, frameworks, tools, and industry shifts in the AI space
     - topic: report delivery clarification
       decision: keep MVP delivery in-app only
     - topic: product type
@@ -52,7 +54,7 @@ checkpoint:
 
 ## Vision & Problem Statement
 
-The primary pain is keeping up with what is happening in the world, in new technologies, and in the IT market without repeatedly doing manual internet research. The user experiences this pain when they want to stay regularly informed but must search across multiple sources on their own, which takes time and still risks missing important signals.
+The primary pain is keeping up with what is happening in the AI space — new tools, models, frameworks, and industry shifts — without repeatedly doing manual internet research. The user experiences this pain when they want to stay regularly informed on AI developments but must search across multiple sources on their own, which takes time and still risks missing important signals.
 
 The key insight is that the highest-value outcome is not just search itself, but a ready-made recurring report delivered to the user without requiring them to open the application and manually gather the information.
 
@@ -92,7 +94,7 @@ Users create an account with a required email address and password, then sign in
 
 ### Research configuration
 
-- FR-003: User can activate a recurring research for the fixed MVP topic "new technologies". Priority: must-have
+- FR-003: User can activate a recurring research for the fixed MVP topic "new AI solutions and tools". Priority: must-have
   > Socrates: Counter-argument considered: "A selectable topic list broadens scope before the product proves value." Resolution: revised; MVP starts with one fixed topic instead of a topic list.
 - FR-004: User can add a short personalized description of what information they want. Priority: nice-to-have
   > Socrates: Counter-argument considered: "Personalized description adds complexity before the core loop is proven." Resolution: kept as nice-to-have, not required for MVP success.
@@ -110,7 +112,7 @@ Users create an account with a required email address and password, then sign in
 
 ### US-01: User receives a recurring technology research report
 
-- **Given** a signed-in user with an active recurring research configured for the fixed MVP topic "new technologies"
+- **Given** a signed-in user with an active recurring research configured for the fixed MVP topic "new AI solutions and tools"
 - **When** the scheduled time for that research arrives
 - **Then** the system runs the research for that topic and makes the generated report available in the application for that user
 
